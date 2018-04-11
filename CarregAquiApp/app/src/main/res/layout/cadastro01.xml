@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:src="@drawable/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/cad"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="175dp"
+        android:textColor="@color/text"
+        android:text="@string/cad"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/nome"
+        android:textColor="@color/text"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/campo1"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:textColor="@color/text"
+        android:backgroundTint="@color/text"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textEmailAddress"
+        android:text="@string/email"
+        android:textColor="@color/text"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/campo2"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:textColor="@color/text"
+        android:backgroundTint="@color/text"/>
+
+    <TextView
+        android:id="@+id/senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/senha"
+        android:textColor="@color/text"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/campo3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="295dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPassword"
+        android:textSize="17sp"
+        android:textColor="@color/text"
+        android:backgroundTint="@color/text"/>
+
+    <TextView
+        android:id="@+id/confirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/confirmar"
+        android:textColor="@color/text"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/campo4"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPassword"
+        android:textSize="17sp"
+        android:textColor="@color/text"
+        android:backgroundTint="@color/text"/>
+
+    <Button
+        android:id="@+id/btnP1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/button"
+        android:text="@string/proximo"
+        android:textSize="17dp"
+        android:onClick="next1"
+        android:clickable="true"/>
+
+</RelativeLayout>

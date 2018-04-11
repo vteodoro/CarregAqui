@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:src="@drawable/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/cad"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="175dp"
+        android:textColor="@color/text"
+        android:text="@string/cad"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/btnP2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/button"
+        android:clickable="true"
+        android:onClick="next2"
+        android:text="@string/proximo"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/uf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/uf"
+        android:textColor="@color/text"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/campo5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="155dp"
+        android:backgroundTint="@color/text"
+        android:textColor="@color/text"
+        android:inputType="text"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/cidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/cidade"
+        android:textColor="@color/text"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/campo6"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/text"
+        android:inputType="text"
+        android:textSize="17dp"
+        android:backgroundTint="@color/text"/>
+
+    <TextView
+        android:id="@+id/cep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/cep"
+        android:textColor="@color/text"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/campo7"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"
+        android:textColor="@color/text"
+        android:textSize="17sp"
+        android:backgroundTint="@color/text"/>
+
+</RelativeLayout>

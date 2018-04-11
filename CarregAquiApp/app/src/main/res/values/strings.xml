@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CarregAqui</string>
+
+    <string name="user">USUÁRIO</string>
+    <string name="passw">SENHA</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="cadastrar">CADASTRAR-SE</string>
+    <string name="esq">Esqueceu a senha?</string>
+
+    <string name="txt1">Digite o e-mail para recuperação:</string>
+    <string name="enviar">Enviar</string>
+
+    <string name="cad">Cadastro</string>
+    <string name="nome">Nome*</string>
+    <string name="email">Email*</string>
+    <string name="senha">Senha*</string>
+    <string name="confirmar">Confirmar senha*</string>
+    <string name="proximo">Próximo</string>
+
+    <string name="uf">UF*</string>
+    <string name="cidade">Cidade*</string>
+    <string name="cep">CEP*</string>
+
+    <string name="cpf">CPF*</string>
+    <string name="tipoC">TIPO CARTÃO*</string>
+    <string name="deb">Débito</string>
+    <string name="cre">Crédito</string>
+    <string name="numC">Nº Cartão*</string>
+    <string name="codSeg">Cód. Segurança*</string>
+    <string name="fim">Finalizar</string>
+
+    <string name="atualizar">Refresh</string>
+    <string name="txts1">Saldo:</string>
+    <string name="addC">Add cartão</string>
+    <string name="saldo1Home">0,00</string>
+    <string name="saldo2Home">0,00</string>
+
+    <string name="recarregar">Recarregar</string>
+    <string name="saldo1Rec">0,00</string>
+    <string name="saldo2Rec">0,00</string>
+    <string name="moeda">R$ </string>
+</resources>

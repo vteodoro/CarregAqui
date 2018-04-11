@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="MainActivity">
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:src="@drawable/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/cad"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="175dp"
+        android:textColor="@color/text"
+        android:text="@string/cad"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnP4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="410dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/button"
+        android:text="@string/fim"
+        android:textSize="17dp"
+        android:clickable="true"
+        android:onClick="registrar"/>
+
+    <TextView
+        android:id="@+id/cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/cpf"
+        android:textColor="@color/text"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/campo8"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="155dp"
+        android:backgroundTint="@color/text"
+        android:textColor="@color/text"
+        android:inputType="number"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/tipoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="205dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/text"
+        android:text="@string/tipoC"
+        android:textSize="17dp"/>
+
+    <RadioButton
+        android:id="@+id/radD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="90dp"
+        android:text="@string/deb"
+        android:textColor="@color/text"
+        android:textSize="17dp"
+        />
+
+    <RadioButton
+        android:id="@+id/radC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="185dp"
+        android:text="@string/cre"
+        android:textColor="@color/text"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/numC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/numC"
+        android:textColor="@color/text"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/campo9"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="290dp"
+        android:backgroundTint="@color/text"
+        android:inputType="number"
+        android:textColor="@color/text"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/codSeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/codSeg"
+        android:textColor="@color/text"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/campo10"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPassword"
+        android:textSize="17sp"
+        android:textColor="@color/text"
+        android:backgroundTint="@color/text"/>
+
+</RelativeLayout>
