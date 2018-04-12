@@ -1,11 +1,12 @@
-package br.com.example.mobile.carregaquiapp;
+package br.com.example.mobile.carregaquiapp.view;
 
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
+
+import br.com.example.mobile.carregaquiapp.R;
 
 public class Cad1Activity extends Activity{
 

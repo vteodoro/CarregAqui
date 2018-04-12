@@ -1,4 +1,4 @@
-package br.com.example.mobile.carregaquiapp;
+package br.com.example.mobile.carregaquiapp.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import br.com.example.mobile.carregaquiapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,10 +30,6 @@ public class MainActivity extends AppCompatActivity {
         login.setText(null);
         senha.setText(null);
 
-    }
-
-    public void recup(View view){
-        startActivity(new Intent(this, RecupActivity.class));
     }
 
     public void cadastrar(View view){

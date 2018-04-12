@@ -1,4 +1,4 @@
-package br.com.example.mobile.carregaquiapp;
+package br.com.example.mobile.carregaquiapp.model;
 
 public class Usuario {
 

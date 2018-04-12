@@ -1,7 +1,4 @@
-package br.com.example.mobile.carregaquiapp;
-
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+package br.com.example.mobile.carregaquiapp.service;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -16,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static android.provider.ContactsContract.CommonDataKinds.Website.URL;
+import br.com.example.mobile.carregaquiapp.model.Usuario;
 
 public class UsuarioService {
 
@@ -34,8 +31,8 @@ public class UsuarioService {
             InputStream in = new BufferedInputStream(urlConnection.getInputStream());
             Scanner s = new Scanner(in);
             String conteudo = s.useDelimiter("\\A").next();
-            Gson gson = new Gson();
-            user = gson.fromJson(conteudo, new TypeToken<List<Usuario>>(){}.getType());
+//            Gson gson = new Gson();
+//            user = gson.fromJson(conteudo, new TypeToken<List<Usuario>>(){}.getType());
         } catch (Exception e) {
             throw new RuntimeException(e);
         } finally {
@@ -56,9 +53,9 @@ public class UsuarioService {
             urlConnection.setRequestProperty("Accept", "application/json");
             OutputStream out = new BufferedOutputStream(urlConnection.getOutputStream());
             Writer w = new BufferedWriter(new OutputStreamWriter(out));
-            Gson gson = new Gson();
-            String json = gson.toJson(user);
-            w.write(json);
+//            Gson gson = new Gson();
+//            String json = gson.toJson(user);
+//            w.write(json);
             w.close();
             InputStream in = new BufferedInputStream(urlConnection.getInputStream());
             Scanner s = new Scanner(in);

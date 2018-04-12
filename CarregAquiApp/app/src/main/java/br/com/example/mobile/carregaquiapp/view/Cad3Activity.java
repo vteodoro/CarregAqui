@@ -1,15 +1,12 @@
-package br.com.example.mobile.carregaquiapp;
+package br.com.example.mobile.carregaquiapp.view;
 
 
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.RadioButton;
+
+import br.com.example.mobile.carregaquiapp.R;
 
 public class Cad3Activity extends Activity{
 

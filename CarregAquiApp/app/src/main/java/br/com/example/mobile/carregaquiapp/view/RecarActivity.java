@@ -1,4 +1,4 @@
-package br.com.example.mobile.carregaquiapp;
+package br.com.example.mobile.carregaquiapp.view;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import br.com.example.mobile.carregaquiapp.R;
+import br.com.example.mobile.carregaquiapp.view.HomeActivity;
 
 public class RecarActivity extends Activity{
     @Override
