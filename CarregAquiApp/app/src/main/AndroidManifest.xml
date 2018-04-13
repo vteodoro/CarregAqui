@@ -17,7 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.HomeActivity"/>
-        <activity android:name=".RecupActivity"/>
         <activity android:name=".view.Cad1Activity"/>
         <activity android:name=".view.Cad2Activity"/>
         <activity android:name=".view.Cad3Activity"/>

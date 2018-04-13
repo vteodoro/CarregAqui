@@ -9,10 +9,10 @@
     <ImageView
         android:id="@+id/imagem"
         android:src="@drawable/logo"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="50dp"/>
 
     <EditText
         android:id="@+id/login"
@@ -49,7 +49,8 @@
         android:layout_below="@+id/senha"
         android:layout_centerInParent="true"
         android:layout_marginTop="35dp"
-        android:background="@color/button"
+        android:textColor="@android:color/white"
+        android:background="@drawable/drw_btn_back"
         android:clickable="true"
         android:onClick="entrar"
         android:text="@string/entrar"
@@ -62,7 +63,8 @@
         android:layout_below="@+id/entrar"
         android:layout_centerInParent="true"
         android:layout_marginTop="15dp"
-        android:background="@color/button"
+        android:textColor="@android:color/white"
+        android:background="@drawable/drw_btn_full"
         android:clickable="true"
         android:onClick="cadastrar"
         android:text="@string/cadastrar"
