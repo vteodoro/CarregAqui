@@ -44,42 +44,28 @@
 
     <Button
         android:id="@+id/entrar"
-        android:layout_width="150dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_below="@+id/senha"
         android:layout_centerInParent="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="35dp"
         android:background="@color/button"
-        android:text="@string/entrar"
-        android:textSize="17dp"
+        android:clickable="true"
         android:onClick="entrar"
-        android:clickable="true"/>
+        android:text="@string/entrar"
+        android:textSize="17dp" />
 
     <Button
         android:id="@+id/cadastrar"
-        android:layout_width="160dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_below="@+id/entrar"
         android:layout_centerInParent="true"
         android:layout_marginTop="15dp"
         android:background="@color/button"
-        android:text="@string/cadastrar"
-        android:textSize="17dp"
         android:clickable="true"
-        android:onClick="cadastrar"/>
-
-    <TextView
-        android:id="@+id/esq"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_below="@+id/cadastrar"
-        android:layout_centerInParent="true"
-        android:background="@color/background"
-        android:textColor="@color/text"
-        android:onClick="recup"
-        android:linksClickable="true"
-        android:text="@string/esq"
-        android:textSize="20sp" />
+        android:onClick="cadastrar"
+        android:text="@string/cadastrar"
+        android:textSize="17dp" />
 
 </RelativeLayout>
