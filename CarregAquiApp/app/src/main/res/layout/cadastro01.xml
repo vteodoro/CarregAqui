@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".view.MainActivity">
+    tools:context=".view.Cad1Activity">
 
     <ImageView
         android:id="@+id/imagem"
@@ -37,14 +37,15 @@
 
     <EditText
         android:id="@+id/campo1"
-        android:layout_width="270dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="155dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="155dp"
+        android:backgroundTint="@color/text"
         android:inputType="text"
-        android:textSize="17sp"
         android:textColor="@color/text"
-        android:backgroundTint="@color/text"/>
+        android:textSize="17sp" />
 
     <TextView
         android:id="@+id/email"
@@ -59,14 +60,15 @@
 
     <EditText
         android:id="@+id/campo2"
-        android:layout_width="270dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="225dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="225dp"
+        android:backgroundTint="@color/text"
         android:inputType="text"
-        android:textSize="17sp"
         android:textColor="@color/text"
-        android:backgroundTint="@color/text"/>
+        android:textSize="17sp" />
 
     <TextView
         android:id="@+id/senha"
@@ -80,14 +82,15 @@
 
     <EditText
         android:id="@+id/campo3"
-        android:layout_width="270dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="295dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/text"
         android:inputType="textPassword"
-        android:textSize="17sp"
         android:textColor="@color/text"
-        android:backgroundTint="@color/text"/>
+        android:textSize="17sp" />
 
     <TextView
         android:id="@+id/confirmar"
@@ -101,26 +104,28 @@
 
     <EditText
         android:id="@+id/campo4"
-        android:layout_width="270dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="365dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/text"
         android:inputType="textPassword"
-        android:textSize="17sp"
         android:textColor="@color/text"
-        android:backgroundTint="@color/text"/>
+        android:textSize="17sp" />
 
     <Button
         android:id="@+id/btnP1"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="430dp"
         android:layout_centerHorizontal="true"
-        android:background="@color/button"
+        android:background="@drawable/drw_btn_back"
+        android:textColor="@android:color/white"
         android:text="@string/proximo"
         android:textSize="17dp"
-        android:onClick="next1"
         android:clickable="true"/>
 
 </RelativeLayout>
