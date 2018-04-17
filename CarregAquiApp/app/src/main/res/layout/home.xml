@@ -5,15 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".view.MainActivity">
+    tools:context=".view.HomeActivity">
 
-    <ImageView
-        android:id="@+id/imagem"
-        android:src="@drawable/logo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/txts1"
@@ -69,7 +62,8 @@
         android:layout_marginLeft="30dp"
         android:text="@string/addC"
         android:textSize="17dp"
-        android:background="@color/button"
+        android:textColor="@android:color/white"
+        android:background="@drawable/drw_btn_back"
         android:clickable="true"
         android:enabled="false"
         android:onClick="addCard"/>
@@ -82,7 +76,8 @@
         android:layout_marginLeft="170dp"
         android:text="@string/recarregar"
         android:textSize="17dp"
-        android:background="@color/button"
+        android:textColor="@android:color/white"
+        android:background="@drawable/drw_btn_back"
         android:clickable="true"
         android:onClick="recarregar"/>
 
