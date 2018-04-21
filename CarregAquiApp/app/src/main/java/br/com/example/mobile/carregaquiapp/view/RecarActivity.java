@@ -8,6 +8,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import br.com.example.mobile.carregaquiapp.R;
+import br.com.example.mobile.carregaquiapp.model.Saldo;
 import br.com.example.mobile.carregaquiapp.view.HomeActivity;
 
 public class RecarActivity extends Activity{
@@ -19,8 +20,9 @@ public class RecarActivity extends Activity{
 
     public void recarCard (View view){
 
-        EditText saldo1 = (EditText) findViewById(R.id.saldo1Rec);
-        EditText saldo2 = (EditText) findViewById(R.id.saldo2Rec);
+        EditText saldo1 = findViewById(R.id.saldo1Rec);
+        EditText saldo2 = findViewById(R.id.saldo2Rec);
+
 
         if((saldo1.getText().toString().isEmpty())&&(saldo2.getText().toString().isEmpty())){
             Toast.makeText(this, "Insira um valor", Toast.LENGTH_SHORT).show();

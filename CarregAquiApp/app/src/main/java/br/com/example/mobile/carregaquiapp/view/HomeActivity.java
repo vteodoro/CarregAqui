@@ -22,8 +22,8 @@ public class HomeActivity extends Activity {
     }
 
     public void atualizar(View view){
-        TextView s1 = (TextView) findViewById(R.id.saldo1Home);
-        TextView s2 = (TextView) findViewById(R.id.saldo2Home);
+        TextView s1 = findViewById(R.id.saldo1Home);
+        TextView s2 = findViewById(R.id.saldo2Home);
         Bundle bundle = getIntent().getExtras();
         String saldo1H = bundle.getString("s1");
         String saldo2H = bundle.getString("s2");
