@@ -40,7 +40,7 @@ public class RecarActivity extends Activity{
 
             sd.setSaldo01(R.id.saldo1Rec);
             sd.setSaldo02(R.id.saldo2Rec);
-            
+
             Intent intent = new Intent(this, HomeActivity.class);
             //intent.putExtras(bundle);
             startActivity(intent);

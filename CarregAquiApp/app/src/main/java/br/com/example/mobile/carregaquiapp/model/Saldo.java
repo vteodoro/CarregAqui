@@ -2,8 +2,8 @@ package br.com.example.mobile.carregaquiapp.model;
 
 public class Saldo {
 
-    private double saldo01;
-    private double saldo02;
+    private double saldo01 = 0;
+    private double saldo02 = 0;
 
     public Saldo(){}
 
