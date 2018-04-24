@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void entrar(View view){
         EditText login = (EditText) findViewById(R.id.login);
         EditText senha = (EditText) findViewById(R.id.senha);
+        login.setText("admin");
+        senha.setText("123");
 
         if("admin".equals(login.getText().toString()) && "123".equals(senha.getText().toString())){
             startActivity(new Intent(this, HomeActivity.class));
